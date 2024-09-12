@@ -52,7 +52,9 @@ movieTitle.addEventListener("focus", () => {
 
 movieInput.addEventListener("blur", () => {
     movieInput.placeholder = "Search for movies...";
+
 });
+
 
     // Event listener for adding movie to watchlist
 
