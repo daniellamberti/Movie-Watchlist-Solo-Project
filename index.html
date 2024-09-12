@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+        <link rel="stylesheet" type="text/css" href="index.css" />
+        <title>Movie WatchList Solo Project</title>
+    </head>
+    <body>
+                            <!-- HEADER SECTION -->
+        <header>
+            <div class="header-content">
+                <h1>Find your film</h1>
+                <div id="my-watchlist-link">
+
+                        <!-- Link TO my_watchlist.html -->
+
+                    <a href="./my_watchlist.html" target="_blank">
+                    <img src="./Img/add-icon.svg" alt="add icon img">My Watchlist</a>
+                </div>
+            </div>
+        </header>
+
+                            <!-- MAIN SECTION  -->
+        <main>
+            <div id="main-container">
+
+                    <!-- SEARCH INPUT AND RESET SEARCH BUTTONS -->
+
+                <div id="search-bar">
+                    <input id="movie-title" class="movie-title" type="text" placeholder="Search for movies ...">
+                    <button id="search-btn" type="submit" class="search-btn">Search</button>
+                    <button id="reset-search-results" type="submit" class="reset-search-results">Reset Search Results</button>
+                </div>
+
+                        <!-- RENDERED MOVIES DIV -->
+
+                <div id="rendered-movies">
+                    <img  id="movie-icon" src="./Img/movie-icon.svg" alt="image of a film icon">
+                    <p id="container-p">Start Exploring</p>
+                </div>
+
+            </div>
+        </main>
+
+        <script src="./index.js" type="module"></script>
+    </body>
+</html>
